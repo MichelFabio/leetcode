@@ -1,3 +1,7 @@
+/**
+ * Dado un String haysack y un string needle,  si haystack contiene a needle
+ * devolver el indice en el que empieza de no contenerlo devolver -1
+ */
 public class FindIndexFirstOccurrence {
     public int strStr(String haystack, String needle) {
         String [] s = haystack.split(needle);
